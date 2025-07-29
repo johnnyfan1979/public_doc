@@ -19,7 +19,7 @@ The development board's RAM (Random Access Memory) is limited and may not be abl
 #### Steps:
 
 1.  **Unzip the File**:
-    First, unzip the downloaded `titan_s10_som_revA_emmc_yocto_console_v1.0.zip` file.
+    First, unzip the downloaded `[titan_s10_som_revA_emmc_yocto_console_v1.0.zip](https://terasic-my.sharepoint.com/:u:/p/johnny/EdzfybN0xy1EjiliasVPFwUBT20EHGY28cHiagdOJf4RXA?e=ub1S0z)` file.
     
     ```bash
     unzip titan_s10_som_revA_emmc_yocto_console_v1.0.zip
