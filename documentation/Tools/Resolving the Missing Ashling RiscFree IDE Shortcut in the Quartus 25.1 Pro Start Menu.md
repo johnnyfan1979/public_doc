@@ -4,7 +4,7 @@
 
 After installing Quartus 25.1 Pro edition and Ashling RiscFree IDE for Intel FPGAs 25.1, the shortcut for the `Ashling RiscFree IDE` does not appear in the Quartus 25.1 Pro directory within the Windows Start Menu.
 
-<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/tools/ashling_riscFree_q251_issue_01.png" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/tools/ashling_riscFree_q251_issue_01.png" style="zoom:50%;" />
 
 ## Solution
 
