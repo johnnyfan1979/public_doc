@@ -1,4 +1,4 @@
-To adjust the GMII gmac skew settings for rev.B Titan S10 SoM, the following modifications need to be made in the original socfpga_stratix10_titan_s10_som.dts:
+To adjust the Ethernet Port B's GMII gmac skew settings for rev.B Titan S10 SoM, the following modifications need to be made in the original **socfpga_stratix10_titan_s10_som.dts**:
 
 1. Remove the previous SGMII information and delete the following node information from the file.
 
@@ -8,7 +8,7 @@ To adjust the GMII gmac skew settings for rev.B Titan S10 SoM, the following mod
 
    Before modification:
 
-   ![image-20250915143056939](https://gitee.com/ice_1983/labcloud/raw/master/image-20250915143056939.png)
+<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/titan_s10/image-20250915143056939.png " height="500">
 
    Details of the modified and usable gmac1 node:
 
@@ -37,11 +37,11 @@ To adjust the GMII gmac skew settings for rev.B Titan S10 SoM, the following mod
 
    Reference table for **txc-skew-ps** and **rxc-skew-ps**:
 
-   ![image-20250915143232318](https://gitee.com/ice_1983/labcloud/raw/master/image-20250915143232318.png)
+<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/titan_s10/image-20250915143232318.png " height="500">
 
    Corresponding register information:
 
-   ![image-20250915143314817](https://gitee.com/ice_1983/labcloud/raw/master/image-20250915143314817.png)
+<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/titan_s10/image-20250915143314817.png" height="500">
 
    Packet loss rate test:
 
