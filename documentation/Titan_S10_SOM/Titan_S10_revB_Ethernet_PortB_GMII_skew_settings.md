@@ -2,7 +2,7 @@ To adjust the GMII gmac skew settings for rev.B Titan S10 SoM, the following mod
 
 1. Remove the previous SGMII information and delete the following node information from the file.
 
-   ![image-20250915142950610](https://gitee.com/ice_1983/labcloud/raw/master/image-20250915142950610.png)
+<img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/titan_s10/image-20250915142950610.png" height="500">
 
 2. Add GMII information. Modify **&gmac1** to GMII mode. 
 
@@ -57,5 +57,6 @@ To adjust the GMII gmac skew settings for rev.B Titan S10 SoM, the following mod
    ```
 
    If there are packet loss in the soc TX, adjust the **txc-skew-ps** in the range of 0 to 1860 with an interval of 60. 
+
 
    If there are packet loss in the soc RX, adjust the **rxc-skew-ps** in the range of 0 to 1860 with an interval of 60.
