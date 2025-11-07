@@ -27,7 +27,7 @@ To adjust the Ethernet Port B's GMII gmac skew settings for rev.B Titan S10 SoM,
                reg = <2>;
                
                txen-skew-ps = <0>; /* -420ps */
-               txc-skew-ps = <480>; /* 0ps */
+               txc-skew-ps = <1800>; /* 0ps */
                rxdv-skew-ps = <420>; /* 0ps */
                rxc-skew-ps = <1680>; /* 780ps */
            };
@@ -60,3 +60,4 @@ To adjust the Ethernet Port B's GMII gmac skew settings for rev.B Titan S10 SoM,
 
 
    If there are packet loss in the soc RX, adjust the **rxc-skew-ps** in the range of 0 to 1860 with an interval of 60.
+
