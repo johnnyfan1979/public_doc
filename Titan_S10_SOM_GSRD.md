@@ -70,8 +70,8 @@ The two most relevant files created in the gsrd-socfpga/titan_s10_som-gsrd-image
 
 |Item   |Version     |Source     |
 |:--------|:--------|--------|
-|Linux Kernel       |6.6.37-lts | https://github.com/terasic/linux-socfpga/tree/titan-s10-som_v1.0       |
-| U-boot       | 2024.04        | https://github.com/terasic/u-boot-socfpga/tree/titan-s10-som_v1.0       |
+|Linux Kernel       |6.6.37-lts | https://github.com/terasic/linux-socfpga/tree/titan-s10-som_v1.1       |
+| U-boot       | 2024.04        | https://github.com/terasic/u-boot-socfpga/tree/titan-s10-som-revB_v1.0       |
 | ATF       | 2.11.0        | https://github.com/altera-opensource/arm-trusted-firmware/tree/QPDS24.3_REL_GSRD_PR       |
 | OS       | Poky 5.0.5        | -       |
 
