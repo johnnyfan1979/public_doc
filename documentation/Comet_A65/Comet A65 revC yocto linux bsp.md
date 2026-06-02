@@ -10,7 +10,7 @@ Terasic provides Yocto Project BSP support for **Comet A65 RevC**, addressing cu
 
 | Item | Location |
 | --- | --- |
-| Linux Image | `sftp://terasic_china@ftp.terasic.com.tw/uploads/Image/Comet-A65/revC/yocto/` |
+| Linux Image | [Comet A65 Yocto Image Rev.C](https://dl2.terasic.com/resources/cometa65/Comet-A65_yocto_image_revC.zip) |
 | QSPI Flash File (JIC) | RevC CD |
 
 > Ready-to-use, no rebuild required.
