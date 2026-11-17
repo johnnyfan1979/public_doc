@@ -12,9 +12,9 @@
 
 3.  Insert the microSD card (with the boot image) into the board.
 
-    > **Note:** Make sure the SOM's **SW1[1]** is set to the **ON** position so that the SOM's HPS boots from the microSD card.
+    > **Note:** Make sure the SOM's **SW1[2]** is set to the **ON** position so that the SOM's HPS boots from the microSD card.
 
-    <img src="https://raw.githubusercontent.com/johnnyfan1979/public_doc/main/documentation/images/Comet_a13/comet_a13_sw11_setting.jpg" alt="Comet A13 SOM SW1[1] setting" style="zoom:50%;" />
+    <img src="https://github.com/johnnyfan1979/public_doc/blob/main/documentation/images/Comet_a13/comet_a13_sw12_setting.png" alt="Comet A13 SOM SW1[2] setting" style="zoom:40%;" />
 
 4.  Set SW3 to OFF (low).
 
@@ -32,7 +32,7 @@
     fatls usb 0:1 # 0:1 indicates the first partition of the first USB device. It will list the found filenames, e.g., comet_a13_revA_emmc_console_v1.0.img.part00
     # If the image is not in partition 1, check subsequent partitions incrementally. Once located, this step can be skipped in the future.
     
-    # Set SW1.[1] to OFF (boot from eMMC)
+    # Set SW1.[2] to OFF (boot from eMMC)
     mmc rescan
     
     env set image_file comet_a13_revA_emmc_console_v1.0.img; # Replace the image name if a newer version is used
